@@ -1,0 +1,140 @@
+@media (max-width: 767px) {
+  .header__container {
+    flex-direction: column;
+  }
+
+  .header__right {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .hero__title {
+    font-size: 70px;
+    line-height: 84px;
+  }
+
+  .grid {
+    grid-template-columns: auto;
+    row-gap: 30px;
+  }
+
+  :root {
+    --offset: 50px;
+  }
+
+  .about__item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .about__title {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+
+  .about__video {
+    height: 400px;
+  }
+
+  .portfolio-item__descr {
+    margin-bottom: 30px;
+  }
+
+  .portfolio-item--reverse .portfolio-item__col:first-child {
+    order: 1;
+  }
+  
+  .portfolio-item--reverse .portfolio-item__col:last-child {
+    order: 2;
+  }
+
+  .portfolio-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .quote__title {
+    margin-bottom: 30px;
+  }
+
+  .services__jpg {
+    height: 500px;
+  }
+
+  .services-item {
+    padding: 20px 0;
+  }
+
+  .footer {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn {
+    min-width: 140px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .header__search {
+    margin-right: 20px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .hero {
+    padding-top: 200px;
+    height: auto;
+    min-height: auto;
+  }
+
+  .hero__title {
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .hero__descr {
+    margin-bottom: 20px;
+  }
+
+  .about__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .about__descr:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .about__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .about__video {
+    height: 320px;
+  }
+
+  .quote__text {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .services__jpg {
+    height: 300px;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+}
